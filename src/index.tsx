@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {splitIntoWorfs} from "./01/01";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+
+      {splitIntoWorfs()}
+    {/*<App />*/}
   </React.StrictMode>,
   document.getElementById('root')
 );
